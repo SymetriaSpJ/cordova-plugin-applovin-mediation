@@ -6,12 +6,24 @@
 
     <!-- android -->
     <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="AppLovinMediation" >
+                <param name="android-package" value="com.applovin.mediation.cordova.AppLovinMediation" />
+                <param name="onload" value="true" />
+            </feature>
+        </config-file>
+        <source-file src="src/android/AppLovinMediation.java" target-dir="src/com/applovin/mediation" />
+
         <framework src="com.google.ads.mediation:applovin:11.9.0.0" />
     </platform>
 
     <!-- ios -->
     <platform name="ios">
         <podspec>
+            <config>
+                <source url="https://github.com/AppLovin/CocoaPods-Specs" />
+                <source url="https://github.com/CocoaPods/Specs.git"/>
+            </config>
             <pods use-frameworks="true">
                 <pod name="GoogleMobileAdsMediationAppLovin" />
             </pods>
