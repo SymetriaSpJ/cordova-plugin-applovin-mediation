@@ -19,6 +19,9 @@
 
     <!-- ios -->
     <platform name="ios">
+        <header-file src="src/ios/AppLovinMediation.h" />
+        <source-file src="src/ios/AppLovinMediation.m" />
+
         <podspec>
             <config>
                 <source url="https://github.com/AppLovin/CocoaPods-Specs" />
