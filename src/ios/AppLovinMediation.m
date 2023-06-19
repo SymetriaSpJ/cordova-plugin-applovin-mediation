@@ -1,4 +1,6 @@
 #import AppLovinMediation.h
+#import <GoogleMobileAds/GADRequest.h>
+#import <AppLovinSDK/AppLovinSDK.h>
 
 @implementation AppLovinMediation
 
