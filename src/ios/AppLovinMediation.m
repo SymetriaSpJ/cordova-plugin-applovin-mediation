@@ -1,6 +1,6 @@
-#import AppLovinMediation.h
+#import "AppLovinMediation.h"
 #import <GoogleMobileAds/GADRequest.h>
-#import <AppLovinSDK/AppLovinSDK.h>
+#import <AppLovinAdapter/GADMAdapterAppLovinExtras.h>
 
 @implementation AppLovinMediation
 
@@ -13,3 +13,5 @@
     extras.muteAudio = YES;
     [request registerAdNetworkExtras:extras];
 }
+
+@end

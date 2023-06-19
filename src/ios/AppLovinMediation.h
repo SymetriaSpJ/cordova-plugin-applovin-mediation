@@ -1,6 +1,6 @@
 #import <Cordova/CDVPlugin.h>
 #import <AppLovinSDK/AppLovinSDK.h>
 
-@interface AppLovinMAX : CDVPlugin
+@interface AppLovinMediation : CDVPlugin
 
 @end
