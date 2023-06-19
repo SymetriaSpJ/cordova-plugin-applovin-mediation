@@ -8,6 +8,6 @@
 
     GADRequest *request = [GADRequest request];
     GADMAdapterAppLovinExtras * extras = [[GADMAdapterAppLovinExtras alloc] init];
-    extras.muteAudio = NO;
+    extras.muteAudio = YES;
     [request registerAdNetworkExtras:extras];
 }
